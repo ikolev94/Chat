@@ -46,7 +46,7 @@ public class MessageController {
     template.convertAndSendToUser(recipient, "/queue/messages", chatMessage);
   }
   
-  @RequestMapping("MessagesBetween/{sender}/{recipient}")
+  @RequestMapping("messagesBetween/{sender}/{recipient}")
   public List<ChatMessage> getM(@PathVariable String sender, @PathVariable String recipient){
 	  return messageService.findMessagesBetweenTwoUsers(sender, recipient);
   }
