@@ -1,9 +1,10 @@
-package com.hellokoding.auth.web;
+package com.tu.web;
 
-import com.hellokoding.auth.model.User;
-import com.hellokoding.auth.service.SecurityService;
-import com.hellokoding.auth.service.UserService;
-import com.hellokoding.auth.validator.UserValidator;
+import com.tu.model.User;
+import com.tu.service.SecurityService;
+import com.tu.service.UserService;
+import com.tu.validator.UserValidator;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

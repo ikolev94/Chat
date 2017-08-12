@@ -1,4 +1,4 @@
-package com.hellokoding.auth;
+package com.tu;
 
 import java.util.List;
 
@@ -14,7 +14,7 @@ import org.springframework.web.socket.config.annotation.StompEndpointRegistry;
 import org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurer;
 import org.springframework.web.socket.config.annotation.WebSocketTransportRegistration;
 
-import com.hellokoding.auth.service.ActiveUserService;
+import com.tu.service.ActiveUserService;
 
 /**
  * Set up our websocket configuration, which uses STOMP, and configure our endpoints

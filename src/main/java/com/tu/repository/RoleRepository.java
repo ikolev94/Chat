@@ -1,7 +1,8 @@
-package com.hellokoding.auth.repository;
+package com.tu.repository;
 
-import com.hellokoding.auth.model.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.tu.model.Role;
 
 public interface RoleRepository extends JpaRepository<Role, Long>{
 }

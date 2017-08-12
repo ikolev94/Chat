@@ -1,11 +1,11 @@
-package com.hellokoding.auth;
+package com.tu;
 
 import java.util.Set;
 
 import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.scheduling.annotation.Scheduled;
 
-import com.hellokoding.auth.service.ActiveUserService;
+import com.tu.service.ActiveUserService;
 
 public class ActiveUserPinger {
 

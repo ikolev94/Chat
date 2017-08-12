@@ -1,8 +1,9 @@
-package com.hellokoding.auth.service;
+package com.tu.service;
 
-import com.hellokoding.auth.model.User;
-import com.hellokoding.auth.repository.RoleRepository;
-import com.hellokoding.auth.repository.UserRepository;
+import com.tu.model.User;
+import com.tu.repository.RoleRepository;
+import com.tu.repository.UserRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;

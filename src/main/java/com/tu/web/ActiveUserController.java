@@ -1,4 +1,4 @@
-package com.hellokoding.auth.web;
+package com.tu.web;
 
 import java.security.Principal;
 
@@ -9,7 +9,7 @@ import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.simp.SimpMessageHeaderAccessor;
 import org.springframework.stereotype.Controller;
 
-import com.hellokoding.auth.service.ActiveUserService;
+import com.tu.service.ActiveUserService;
 
 @Controller
 public class ActiveUserController {

@@ -1,4 +1,4 @@
-package com.hellokoding.auth.web;
+package com.tu.web;
 
 import java.security.Principal;
 import java.util.List;
@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.hellokoding.auth.model.ChatMessage;
-import com.hellokoding.auth.service.MessageService;
+import com.tu.model.ChatMessage;
+import com.tu.service.MessageService;
 
 
 @RestController

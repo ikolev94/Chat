@@ -1,12 +1,12 @@
-package com.hellokoding.auth.service;
+package com.tu.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.hellokoding.auth.model.ChatMessage;
-import com.hellokoding.auth.repository.MessageRepository;
+import com.tu.model.ChatMessage;
+import com.tu.repository.MessageRepository;
 
 @Service
 public class MessageService {

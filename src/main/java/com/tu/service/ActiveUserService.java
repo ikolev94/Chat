@@ -1,4 +1,4 @@
-package com.hellokoding.auth.service;
+package com.tu.service;
 
 import java.util.Set;
 import java.util.concurrent.atomic.AtomicLong;

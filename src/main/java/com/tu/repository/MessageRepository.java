@@ -1,11 +1,11 @@
-package com.hellokoding.auth.repository;
+package com.tu.repository;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-import com.hellokoding.auth.model.ChatMessage;
+import com.tu.model.ChatMessage;
 
 public interface MessageRepository extends JpaRepository<ChatMessage, Long>{
 	

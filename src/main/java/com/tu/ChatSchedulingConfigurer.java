@@ -1,4 +1,4 @@
-package com.hellokoding.auth;
+package com.tu;
 
 import javax.inject.Inject;
 
@@ -10,7 +10,7 @@ import org.springframework.scheduling.annotation.SchedulingConfigurer;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler;
 import org.springframework.scheduling.config.ScheduledTaskRegistrar;
 
-import com.hellokoding.auth.service.ActiveUserService;
+import com.tu.service.ActiveUserService;
 
 /**
  * Override the scheduling configuration so that we can schedule our own scheduled bean and
