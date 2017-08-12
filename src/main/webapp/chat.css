@@ -5,13 +5,12 @@ body {
 
 .chat {
   height: 200px;
-  width: 600px;
   overflow-y: scroll;
   background-color: black;
   border: 3px solid #778899;
   border-radius: 5px;
   color: #FFFFFF;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: normal;
   left: -1px;
   padding: 10px 7px 5px;
@@ -37,13 +36,14 @@ body {
 }
 
 .chat-container {
+	width: 80%;
 	position: relative;
 	float: left;
 }
 
 .chat-input {
 	bottom: 0;
-	float: left;
+	width: 60%;
 	border-radius: 5px;
 	border: 3px solid #9932CC;
 	outline: none;
@@ -51,8 +51,8 @@ body {
 
 .chat-submit {
   bottom: 0;
-  height: 34px;
-  width: 60px;
+  height: 40px;
+  width: 25%;
   float: right;
   margin-top: 2px;
   background-color: #f38709;
