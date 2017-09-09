@@ -1,4 +1,4 @@
-package com.tu.web;
+package софия.ту.уеб;
 
 import java.security.Principal;
 
@@ -9,22 +9,22 @@ import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.simp.SimpMessageHeaderAccessor;
 import org.springframework.stereotype.Controller;
 
-import com.tu.service.ActiveUserService;
+import софия.ту.сървис.СървисАктивниПотребители;
 
 @Controller
-public class ActiveUserController {
+public class АктивниПотребителиКонтролер {
   
-  private ActiveUserService activeUserService;
+  private СървисАктивниПотребители activeUserService;
 
   @Inject
-  public ActiveUserController(ActiveUserService activeUserService) {
+  public АктивниПотребителиКонтролер(СървисАктивниПотребители activeUserService) {
     this.activeUserService = activeUserService;
   }
   
   @MessageMapping("/activeUsers")
   public void activeUsers(Message<Object> message) {
     Principal user = message.getHeaders().get(SimpMessageHeaderAccessor.USER_HEADER, Principal.class);
-    activeUserService.mark(user.getName());
+    activeUserService.маркирай(user.getName());
   }
 
 }
