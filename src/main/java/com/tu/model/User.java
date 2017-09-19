@@ -10,7 +10,7 @@ import java.util.Set;
  * @author ivan
  */
 @Entity
-@Table(name = "user")
+@Table(name = "users")
 public class User {
 
 	/**
